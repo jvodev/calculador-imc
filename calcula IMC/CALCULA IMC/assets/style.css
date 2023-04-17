@@ -1,0 +1,45 @@
+*   {
+    margin: auto 0;
+    padding: 0px ;
+}
+
+body    {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: aquamarine;
+    padding: auto 0;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container h1   {
+    padding: 30px;
+    background-color: rgba(127, 255, 212, 0.291);
+}
+
+.tabela {
+    font-size: 18px;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.center tr td   {
+    font-style:italic;
+    font-weight: bold;
+}
+
+tr:nth-child(odd)  {
+        background-color: rgba(40, 126, 86, 0.308);
+}
+
+#resultado  {
+    border-top: 30px;
+    color:black
+}

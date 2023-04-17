@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IMC</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            O que é <i>IMC</i>?
+        </h1>    
+            <p>O <strong>índice de massa corporal</strong> é uma medida internacional usada para calcular se uma
+                pessoa está no peso ideal, <a href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal" target="_blank">saiba mais <br></a>.
+                <br>Fórmula utilizada para calcular o IMC: divide-se o peso em quilos pela altura ao quadrado (em metros).
+
+Calcular IMC requer <br> apenas altura e peso, o índice de massa corporal é uma ferramenta fácil e barata! Por exemplo, um adulto que pesa 70 kg <br> e cuja altura é 1,75 m terá um IMC de 22,9.
+            </p>    
+            <br>
+            <hr>
+            <br>
+    <div class="tabela">
+        <table class="center">
+            <tr>
+              <td>Abaixo de 17</td>
+              <td>Muito abaixo do peso</td>
+            </tr>
+            <tr>
+                <td>Entre 17 e 18,49</td>
+                <td>Abaixo do peso</td>
+              </tr>
+              <tr>
+                <td>Entre 18,5 e 24,99</td>
+                <td>Peso normal</td>
+              </tr>
+            <tr>
+              <td id>Entre 25 e 29,99</td>
+              <td>Acima do peso</td>
+            </tr>
+            <tr>
+              <td>Entre 30 e 34,99</td>
+              <td>Obesidade I</td>
+            </tr>
+            <tr>
+              <td>Entre 35 e 39,99</td>
+              <td>Obesidade II (severa)</td>
+            </tr>
+            <tr>
+                <td>Acima de 40</td>
+                <td>Obesidade III (mórbida)</td>
+              </tr>
+          </table>
+        </div>
+        <br>
+    </div>
+
+    <hr>
+    <br>
+    <form>
+      <p> Calcule o seu IMC</p> <br>
+      <p>altura <input type="number" name="altura" id="altura" min="0" max="500" step="0.01"></p>
+      <p>peso <input type="number" name="peso" id="peso"min="0" max="500" step="0.01"></p>
+      <input type="submit" value="calcular" id="calcular">
+    </form>
+    <br>
+    <h3 id="res"></h3>
+    <script src="script.js"></script>
+</body>
+</html>
